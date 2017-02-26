@@ -9,9 +9,9 @@ __mtime__ = '2017/1/21'
 import time
 import requests
 from bs4 import BeautifulSoup
-
-start_url = "http://www.jiuseteng55.com/html/videos/guochandianying/"
-vhost = "http://www.jiuseteng55.com"
+# 具体的域名大家自行百度哈，不然我会被举报
+start_url = "http://www.***.com/html/videos/guochandianying/"
+vhost = "http://www.***.com"
 # 九色腾
 start_bs = BeautifulSoup(requests.get(start_url).content,"lxml")
 # root = etree.HTML(requests.get(start_url).content)
